@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    padding: 40px 0;
+    background-color: #eee;
+
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+
+}
+
+.logo {
+    width: 20%;
+    float: left;
+
+}
+
+.logo img {}
+
+nav {
+    width: 60%;
+    float: left;
+
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 5px 20px;
+    display: block;
+
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+.social-list {
+    width: 20%;
+    float: left;
+}
+
+.social-list ul {}
+
+.social-list ul li {
+    float: left;
+}
+
+.social-list ul li a {
+    display: block;
+    color: #333;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.social-list ul li a:hover {
+    color: orange;
+}
+
+.banner-section{
+    background-image:url(../images/background.jpg);
+    min-height: 90vh;
+}
+
+.banner-content{
+    width: 50%;
+    float: right;
+    margin-top: 14em;
+}
+.banner-content h1{
+    font-size: 60px;
+    line-height: 1;
+    font-weight: 900;
+}
+.banner-content h1 span{
+    color: orange;
+}
+.banner-content p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.about-us-section{
+    padding: 100px o;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left{
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 25px;
+    box-sizing: border-box;
+/*    background: red;*/
+    
+/*
+    width: 50%;
+    float: left;
+    padding: 25px;
+    box-sizing: border-box;
+*/
+}
+.right{
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 25px;
+    box-sizing: border-box;
+/*    background: green;*/
+/*
+    width: 50%;
+    float: left;
+    padding: 0 25px;
+    box-sizing: border-box;
+*/
+}
+
+.left h1{
+    font-size: 3em;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+.left img{
+    margin: auto;
+    display: block;
+}
+.right p{
+    font-size: 18px;
+}
+
+.courses-section{
+    background-color: #EDF2F5;
+    padding: 100px 0;
+}
+.course{
+    max-width: 33.33%;
+    flex-basis: 33.33%;
+    padding: 15px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.course .course-box{
+    background: white;
+    text-align: center;
+    padding-bottom: 20px;
+    box-shadow: 0 0 20px black;
+    
+}
+
+.course .course-box:hover{
+    box-shadow: 0 0 0 black;
+}
+
+img{
+    max-width: 100%;
+}
+
+.course-box div{
+    padding: 20px;
+}
+
+.course-box div h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.course-box div p{}
+
